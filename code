@@ -1,12 +1,18 @@
-import math
-a=float(input('Введіть аргумент "a" >>> '))
-y = 8.5
-q = 2.62
-m = 2
-x = 3.141
-g = (x-a)/q
-s = (g*a**2)/m
-c1 = y-(math.cos(x+a))
-c2 = math.sqrt(1+math.sqrt(math.pow(math.e,x)+(a*s)))
-c = c1/c2
-print(c)
+x = float(-4)
+a = array("f",[3.1, 2.1, 1.6])
+b = array("f",[10.3, 8.8, 0.2])
+c = array("f",[-2.8, -11.4, -20.8])
+d = array("f",[10.3, -5.6, 38.5])
+z = 0
+w =[]
+
+for i in range(6):
+    for k in range(3):
+        t = a[z]x**3+b[z]x*2+c[z]x+d[z]
+        w.append(t)
+        z+=1
+    z=0
+    x+=1
+w.sort()
+print(round(w[0], 6))
+print(round(w[-1], 6))
