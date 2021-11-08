@@ -1,3 +1,5 @@
+from array import *
+
 x = float(-4)
 a = array("f",[3.1, 2.1, 1.6])
 b = array("f",[10.3, 8.8, 0.2])
