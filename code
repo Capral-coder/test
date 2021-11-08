@@ -1,0 +1,12 @@
+import math
+a=float(input('Введіть аргумент "a" >>> '))
+y = 8.5
+q = 2.62
+m = 2
+x = 3.141
+g = (x-a)/q
+s = (g*a**2)/m
+c1 = y-(math.cos(x+a))
+c2 = math.sqrt(1+math.sqrt(math.pow(math.e,x)+(a*s)))
+c = c1/c2
+print(c)
