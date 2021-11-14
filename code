@@ -10,7 +10,7 @@ w =[]
 
 for i in range(6):
     for k in range(3):
-        t = a[z]x**3+b[z]x*2+c[z]x+d[z]
+        t = a[z]*x**3+b[z]*x**2+c[z]*x+d[z]
         w.append(t)
         z+=1
     z=0
